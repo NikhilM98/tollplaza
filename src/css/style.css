@@ -1,0 +1,521 @@
+body{
+	background-color: white;
+}
+
+.indexNavbarTollLogo{
+	    height: auto;
+    width: 5vw;
+    margin-top: -2vh;
+    margin-left: 5vw;
+}
+
+@media (min-width: 768px){}
+.navbar-collapse.collapse {
+    height: 11vh !important;
+}
+}
+
+@media (min-width: 768px){}
+.navbar-nav>li>a {
+    transition: .2s;
+   padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: .9em;
+}}
+
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    padding-right: 5vw;
+}}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 45px;
+}
+
+.desktop{
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+.desktop{
+   display: none;
+}
+}
+
+a:focus{
+	border: none;
+}
+
+.nav_items{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: black;
+    letter-spacing: .1em;
+}
+
+.sparkNavbarTag{
+    color: #40e1e2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: .3em;
+}
+
+/* main body css */
+
+.about_header{
+    margin-top: 7vh;
+    margin-left: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+    letter-spacing: .2em;
+}
+
+.half_underline{
+    margin-left: 5vw;
+    height: 1vh;
+    width: 6vw;
+    background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+.half_underline{
+    margin-left: 5vw;
+    height: 1vh;
+    width: 15vw;
+    background-color: black;
+}
+}
+
+.faq_header{
+    margin-top: 7vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+    letter-spacing: .2em;
+}
+
+.half_underline_faq{
+    height: 1vh;
+    width: 6vw;
+    background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+.half_underline_faq{
+    height: 1vh;
+    width: 15vw;
+    background-color: black;
+}
+}
+
+.about_discription{
+    text-align: justify;
+    line-height: 200%;
+    margin-top: 2vh;
+    margin-right: 10vw;
+    margin-left: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #4b4d51;
+
+}
+
+.indexIntroductionTag{
+	font-size: 2.5vw;
+    color: #666;
+    letter-spacing: -0px;
+    /*text-align: center;*/
+    border-bottom: 1px solid #999;
+    margin-top: 10vh;
+    font-weight: 700;
+    padding-bottom: 1.5vh
+}
+
+.indexIntroductionText{
+	font-size: 1.1vw;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    padding: 1vh 2vw 0 6vw;
+}
+
+.indexGuidelinesTag{
+	font-size: 2.5vw;
+    color: #666;
+    letter-spacing: -0px;
+    /*text-align: center;*/
+    border-bottom: 1px solid #999;
+    margin-top: 5vh;
+    font-weight: 700;
+    padding-bottom: 1.5vh
+}
+.indexGuidelines{
+	padding-left: 8vw
+}
+.indexGuidelines li{
+    font-size: 1vw;
+    padding-top: 2vh;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+}
+
+.indexApplyNowButton{
+	font-size: 1.4vw;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 15vw;
+    padding: 2vh 0;
+    margin-top: 5vh;
+    
+}
+
+
+.indexObjectiveTag {
+    font-size:2vw;
+    color:#777;
+    margin-left: 3vw;
+    margin-bottom: 0px;
+
+}
+
+.indexObjectiveText{
+    font-size: 2.4vw;
+    letter-spacing: 0.5px;
+    word-spacing: 0px;
+    margin-top: 0px;
+}
+
+.loginModalHeader{
+	text-align: center;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.loginModalSignupButton{
+	font-size: 1.2vw;
+    padding: 1vh 2vw;
+	}
+
+.loginModalWidth{
+	width: 33%
+}
+.modal-content{
+	border-radius: 5px;
+	margin-top: 5vh
+}
+.modal-dialog{
+	margin-top: 25vh
+}
+.signupModalSignupButton{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 7em;
+    background-color: black;
+    height: 2.5em;
+}
+
+.moveToUpButton{
+    font-size: 2.6vw;
+    background-color: rgba(193, 198, 206, 0.67);
+    color: rgba(0, 0, 0, 0.59);
+    border-radius: 5px;
+    padding: .3% 6px .3% 10px;
+    text-align: center;
+    position: fixed;
+    top: 85vh;
+    left: 92%;
+    z-index: 100;
+}
+/*footer*/
+
+.footerBottom{
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.footer {
+    margin-top: 10vh;
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+.footer {
+    margin-top: 10vh;
+    background-color: black;
+    height: 30em;
+    width: 100%;
+}
+}
+
+.footer p {
+    margin: 0;
+}
+.footer img {
+    max-width: 100%;
+}
+.footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+    text-decoration: none;
+     color: #78828D
+}
+
+.footer ul li a:hover {
+    padding: 0 0 5px 0;
+    display: block;
+    text-decoration: none;
+     color: #000;
+     font-size: 13.5px
+}
+
+.footer_header{
+    margin-top: 7vh;
+    margin-left: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    letter-spacing: .2em;
+}
+
+.half_underline_footer{
+    margin-top: 1.5vh;
+    margin-left: 5vw;
+    height: .7vh;
+    width: 6vw;
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+.half_underline_footer{
+    margin-left: 5vw;
+    height: 1vh;
+    width: 15vw;
+    background-color: white;
+}
+}
+
+.email{
+    margin-top: 7vh;
+    margin-left: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #e0e3e5;
+    letter-spacing: .05em;
+    line-height: 200%;
+}
+
+.socialicons1{
+    padding-top: 22vh;
+    width: 1.6vw;
+}
+
+@media only screen and (max-width: 768px) {
+.socialicons1{
+    padding-top: 9vh;
+    width: 2em;
+}
+}
+
+.socialicons2{
+    padding-top: 22vh;
+    width: 3.2vw;
+}
+
+@media only screen and (max-width: 500px) {
+.socialicons2{
+    padding-top: 9vh;
+    width: 3.2em;
+}
+}
+
+.socialicons3{
+    padding-top: 22vh;
+    width: 3.3vw;
+}
+
+@media only screen and (max-width: 500px) {
+.socialicons3{
+    padding-top: 9vh;
+    width: 3.3em;
+}
+}
+
+
+.studentProjectStatus{
+    font-size: 1.4vw;
+    padding-top: 1vh;
+    text-align: center;
+}
+
+
+.social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+    color: #EDEFF1;
+}
+.social li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+}
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+
+.footer-bottom {
+    background: #E3E3E3;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+}
+.payments {
+    font-size: 1.5em;
+}
+
+
+
+
+.indexRegisterButton {
+    background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+    box-shadow: 0 1px 0 #B4B3B3;
+}
+
+
+.full {
+    width: 100%;
+}
+.gap {
+    height: 30px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+
+.supportLi h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+.projectsAvailableTag{
+    font-size: 2.5vw;
+    color: #666;
+    letter-spacing: -0px;
+    
+    margin-top: 4vh;
+    font-weight: 700;
+    padding-bottom: 1.5vh
+}
+
+.projectSearchingInput{
+    margin-top: 5vh
+}
+
+
+.signupHereTag{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+.facultyAddRemark{
+    border-radius: 8px
+}
+
+@media (min-width: 768px){
+.navbar-right {
+    margin-right: 1vw !important;
+}
+.faqQuestions{
+    line-height: 200%;
+    margin-top: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #4b4d51;
+    font-weight: 700;
+}
+.faqAnswer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    color: #83868c;
+    font-weight: 500;   
+}
+
+
+
